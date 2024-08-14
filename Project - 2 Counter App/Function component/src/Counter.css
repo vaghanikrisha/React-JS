@@ -1,0 +1,78 @@
+/* Counter.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffcccc; /* Light red (pinkish) fullscreen background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevent scrolling */
+  }
+
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .counter-box h1 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .counter-box button {
+    margin: 10px;
+    padding: 15px 35px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); /* Pink to Red gradient */
+    color: white;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(255, 65, 108, 0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .counter-box button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.4s ease;
+    transform: translate(-50%, -50%) rotate(45deg);
+    opacity: 0;
+  }
+  
+  .counter-box button:hover:before {
+    width: 150%;
+    height: 150%;
+    opacity: 1;
+  }
+  
+  .counter-box button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c); /* Reverse gradient on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 65, 108, 0.4);
+  }
+  
+  .counter-box button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(255, 65, 108, 0.4);
+  }
+  

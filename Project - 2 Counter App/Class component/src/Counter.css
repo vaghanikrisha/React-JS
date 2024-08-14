@@ -1,0 +1,71 @@
+/* Full-screen layout with background image and gradient overlay */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container centered in full-screen */
+  .container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Count display styling */
+  .count {
+    font-size: 5rem;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  /* Button container styling */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+  }
+  
+  /* Button styling */
+  .button {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #070504;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect for buttons */
+  .button:hover {
+    background-color: #ff7e5f;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  
+  /* Active button effect */
+  .button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
