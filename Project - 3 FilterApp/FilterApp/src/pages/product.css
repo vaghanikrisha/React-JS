@@ -1,0 +1,107 @@
+
+/* Vibrant background gradient with smoother movement */
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fecfef, #a18cd1, #fad0c4, #89f7fe);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    font-family: "Sedan SC", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* Card Styling */
+.card {
+    position: relative;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2), 0 12px 22px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25), 0 18px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card .card-img-top {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+
+/* Overlay icon on the image */
+
+/* Card body styling */
+.card .card-body {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0 0 20px 20px;
+
+}
+
+.card h5 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    transition: color 0.4s ease;
+}
+
+.card p {
+    text-align: left;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+    transition: color 0.4s ease;
+}
+
+/* Add creative hover effects on text */
+.card:hover h5 {
+    color: #ff9a9e;
+}
+
+.card:hover p {
+    color: #fad0c4;
+}
+
+/* Button hover effect */
+.card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fa709a;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
