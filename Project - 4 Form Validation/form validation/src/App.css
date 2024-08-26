@@ -1,0 +1,115 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+  background: url('https://images.pexels.com/photos/4597290/pexels-photo-4597290.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.form-container {
+  align-items: center;
+}
+
+.input-wrapper {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  width: 350px;
+  font-weight: 700;
+}
+
+.input-wrapper input {
+  padding: 10px;
+  margin: 5px 0;
+  width: calc(100% - 25px);
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-weight: 800;
+}
+
+.input-wrapper button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.input-wrapper button:hover {
+  background-color: #3d3c3c;
+}
+
+.add-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #ffffff;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

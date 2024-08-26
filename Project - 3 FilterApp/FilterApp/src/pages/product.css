@@ -25,13 +25,54 @@ body {
     }
 }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.full-header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
 
+.header-title {
+    font-size: 2.5rem;
+    text-align: center;
+    flex: 1;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.header-btn {
+    background-color: #fa709a;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header-btn:hover {
+    background-color: #f45b69;
+}
+
+/* Adjust content padding to avoid being hidden under the fixed header */
+body {
+    padding-top: 110px; /* Adjust based on header height */
+}
+
+.container-fluid {
+    margin-top: 50px; /* Ensure content starts below the header */
+}
 /* Card Styling */
 .card {
     position: relative;
@@ -86,11 +127,11 @@ body {
 
 /* Add creative hover effects on text */
 .card:hover h5 {
-    color: #ff9a9e;
+    color: #BC2D3B;
 }
 
 .card:hover p {
-    color: #fad0c4;
+    color: #BC2D3B;
 }
 
 /* Button hover effect */
@@ -104,4 +145,16 @@ body {
     border-radius: 10px;
     cursor: pointer;
     letter-spacing: 1px;
+    justify-content: space-between;
+}
+
+/* Button container with space between the buttons */
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn-container .btn {
+    width: 49%; /* Adjust width to ensure proper spacing */
 }

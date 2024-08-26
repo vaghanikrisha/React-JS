@@ -1,0 +1,99 @@
+/* Cart header styling */
+.cart-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000; /* Dark background for the header */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Ensures the header stays on top */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Cart table styling */
+.cart-table-wrapper {
+  margin-top: 100px; /* Adds space below the fixed header */
+  display: flex;
+  justify-content: center; /* Center the table horizontally */
+}
+
+.cart-table {
+  width: 190%; /* 80% of the screen width */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse; /* Remove gaps between table cells */
+}
+
+.cart-table thead th {
+  background-color: #000000;
+  color: white;
+  padding: 15px 10px;
+  text-align: left;
+}
+
+.cart-table tbody td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.cart-img {
+  width: 50px;
+  height: auto;
+}
+
+.quantity-input {
+  width: 60px;
+  padding: 5px;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.back-btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.back-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .cart-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .back-btn {
+    margin-top: 10px;
+  }
+
+  .cart-table-wrapper {
+    padding: 0 10px;
+  }
+
+  .cart-table {
+    width: 100%; /* Make the table full width on smaller screens */
+  }
+}
