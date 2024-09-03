@@ -1,0 +1,55 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.banner{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/banner/banner-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.banner h5{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.banner h5 span{
+    margin-right: 10px;
+    color: #64b496;
+    font-weight: bold;
+    border-bottom: 2px solid #64b496;
+    font-size: 1.25rem;
+}
+.banner h1{
+    font-family: "Manrope", sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 68px;
+    color: black;
+    margin-bottom: 25px;
+}
+.banner p{
+    font-size: 15px;
+    color: #7a7a7a;
+    line-height: 1.75;
+}
+.banner .shop{
+    margin-top: 30px;
+    display: flex;
+}
+.banner .shop button{
+    padding: 8px 22px;
+    background-color: #64b496;
+    transition: all 0.5s;
+}
+.banner .shop button a{
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.banner .shop button:hover{
+    background-color: black;
+}

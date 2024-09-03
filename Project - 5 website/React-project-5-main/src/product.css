@@ -1,0 +1,66 @@
+.product .title h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b2b2d;
+    font-family: "Manrope", sans-serif;
+}
+.product .title p{
+    color: #7a7a7a;
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.product-content .card{
+    overflow: hidden;
+}
+
+.product-content .card img{
+    transition: all 0.5s;
+}
+
+.product-content .card img:hover{
+    transform: scale(1.1);
+}
+
+.product-content .card .card-body h6 {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #777;
+}
+
+.product-content .card .card-body i{
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #f5885f
+}
+
+.product-content .card .card-body p{
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2b2b2d;
+    font-family: "Poppins";
+}
+
+.product-content .card .card-body .price{
+    color: #64b496;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: "Poppins";
+}
+
+.product-content .card .card-body .oldPrice{
+    text-decoration: line-through;
+    font-size: 13px;
+    line-height: 1.75;
+    font-family: "Poppins";
+    color: #7a7a7a;
+    margin-left: 5px;
+}
+
+.product-content{
+    margin: 12px 0;
+}

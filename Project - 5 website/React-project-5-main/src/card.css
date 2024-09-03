@@ -1,0 +1,79 @@
+.cards{
+    padding-top: 80px;
+}
+
+.cards .img{
+    overflow: hidden;
+}
+
+.cards .image-card{
+    width: 416px;
+    height: 229px;
+    padding: 24px;
+}
+
+.cards .card1{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product-banner/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards .card2{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product-banner/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards .card3{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product-banner/3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards .image-card h3{
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #2b2b2b;
+}
+
+.cards .image-card p , .card .image-card span {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #777;
+    padding-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.cards .image-card .percentage{
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #64b496;
+}
+
+.cards  .image-card .shop{
+    display: flex;
+}
+.cards  .image-card .shop button{
+    padding: 8px 22px;
+    background-color: #64b496;
+    transition: all 0.5s;
+}
+
+.cards  .image-card .shop button:hover{
+    background-color: black;
+}
+
+.cards  .image-card .shop button a{
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}

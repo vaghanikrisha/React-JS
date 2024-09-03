@@ -1,0 +1,38 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+form{
+    height: 45px;
+}
+
+form button {
+    background-color: #64b496;
+    color: white;
+    outline: none;
+    border: 0;
+    border-radius: var(--bs-border-radius);
+    width: 55px;
+}
+
+form input::placeholder{
+    font-size: 14px;
+}
+
+form select{
+    font-size: 13px;
+    padding: 0 10px;
+    color: grey;
+}
+
+span{
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: black;
+}
+i{
+    font-size: 21px;
+    line-height: 17px;
+    padding-right: 5px;
+}
