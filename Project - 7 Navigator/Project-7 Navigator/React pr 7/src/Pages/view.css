@@ -1,0 +1,12 @@
+table  tr th{
+    color: #a49371!important;
+    font-size: 20px;
+}
+table  tr td{
+    color: #a49371!important;
+    font-size: 18px;
+}
+table{
+    border: 1px solid black!important;
+    box-shadow: 4px 4px 4px rgb(51, 50, 50);
+}

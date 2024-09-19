@@ -1,0 +1,135 @@
+/* Add full-page centering */
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5ce7b99d; 
+}
+
+/* Center the container */
+.container {
+    width: 140%;
+    max-width: 500px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px; 
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bolder;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+input {
+    padding: 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    outline: none;
+    transform: scale(1.05);
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #000000;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
+}
+
+.error {
+    color: #ff4757;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 1.8em;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
+}
+
+li button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+    margin-left: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+li button:first-of-type {
+    background-color: #ff6b81;
+    
+}
+
+li button:first-of-type:hover {
+    background-color: #e55d6f;
+    border: 2px solid #000000;
+}
+
+li button:last-of-type {
+    background-color: #ffa502;
+}
+
+li button:last-of-type:hover {
+    background-color: #e59c00;
+    border: 2px solid #000000;
+}
