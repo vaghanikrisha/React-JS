@@ -3,7 +3,7 @@ import Add from './Pages/Add'
 import View from './Pages/View'
 import Edit from './Pages/Edit'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { useNavigate } from 'react-router-dom'
+
 
 function App() {
 

@@ -85,7 +85,7 @@ const Add = () => {
               <div className="mb-3">
                 <label className="form-label">Course</label>
                 <div>
-                  {[' Html ',  ' css ',  ' bootstrap ',  ' Js ',  ' react.js ',  ' node.js ',  ' php ',  ' angular ',  ' python ',  ' laravel '].map((course) => (
+                  {[' Html ',  ' css ',  ' bootstrap ',  ' Js ',  ' react.js ',  ' node.js ',  ' python ',  ' laravel '].map((course) => (
                     <div key={course} style={{ display: 'inline-block', marginRight: '10px' }}>
                       <input
                         type="checkbox"
